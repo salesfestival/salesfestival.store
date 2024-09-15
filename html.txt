@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Festival</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Sales Festival!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#top-seller">Top Seller</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="services">
+            <div class="container">
+                <h2>Our Top 3 Best Services</h2>
+                <div class="service">
+                    <h3>Exceptional Customer Support</h3>
+                    <p>Personalized Assistance: Our dedicated team is here to help you with any questions or concerns, ensuring a seamless shopping experience from start to finish.</p>
+                    <p>24/7 Availability: Get support whenever you need it, whether it’s through live chat, email, or phone.</p>
+                </div>
+                <div class="service">
+                    <h3>Exclusive Discounts and Offers</h3>
+                    <p>Special Promotions: Enjoy access to exclusive deals and seasonal sales that you won’t find anywhere else.</p>
+                    <p>Loyalty Rewards: Benefit from our rewards program with special perks and discounts for our regular customers.</p>
+                </div>
+                <div class="service">
+                    <h3>Fast and Reliable Shipping</h3>
+                    <p>Quick Delivery: Receive your purchases swiftly with our efficient shipping options, ensuring you get your items as soon as possible.</p>
+                    <p>Tracking & Updates: Stay informed with real-time tracking and updates on your order status from dispatch to delivery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="top-seller">
+            <div class="container">
+                <h2>Spotlight on Our Best Seller: Product Name</h2>
+                <p>Discover why Product Name is our top-selling item and why it’s a must-have for you!</p>
+                <button id="learn-more">Learn More</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have any questions? Reach out to our team and we'll be happy to assist you.</p>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sales Festival. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
